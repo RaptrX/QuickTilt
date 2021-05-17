@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/half_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arrow_colour"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp">
+
+            <ImageView
+                android:id="@+id/blue_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/half_margin"
+                android:background="@color/miami_blue"
+                android:contentDescription="@string/blue_button_description" />
+
+            <ImageView
+                android:id="@+id/green_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/half_margin"
+                android:background="@color/green"
+                android:contentDescription="@string/green_button_description" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp">
+
+            <ImageView
+                android:id="@+id/yellow_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/half_margin"
+                android:background="@color/yellow"
+                android:contentDescription="@string/yellow_button_description" />
+
+            <ImageView
+                android:id="@+id/orange_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/half_margin"
+                android:background="@color/orange"
+                android:contentDescription="@string/orange_button_description" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

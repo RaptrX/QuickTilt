@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuickTilt</string>
+    <string name="play_again">Play Again</string>
+    <string name="you_scored">You Scored</string>
+    <string name="title_text">Tilt!</string>
+    <string name="play_button">Play</string>
+    <string name="get_ready">Get ready to</string>
+    <string name="quote_format">\"%s\"</string>
+    <string name="score_format">Current Score: %d</string>
+    <string name="score">%d/10</string>
+    <string name="arrow_colour">Choose an arrow colour</string>
+    <string name="direction_arrow_description">Arrow showing the direction</string>
+    <string name="blue_button_description">Button to select blue arrows</string>
+    <string name="green_button_description">Button to select green arrows</string>
+    <string name="yellow_button_description">Button to select yellow arrows</string>
+    <string name="orange_button_description">Button to select orange arrows</string>
+</resources>
